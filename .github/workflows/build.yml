@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Decompresser le projet
-        run: unzip -q -o PadMapper-11.1.zip -d src
+        run: unzip -q -o PadMapper-11.2.zip -d src
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
